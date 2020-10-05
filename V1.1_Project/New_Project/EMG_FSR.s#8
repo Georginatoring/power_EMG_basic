@@ -14258,6 +14258,11 @@ type 0309, grid 2.5 mm</description>
 <wire x1="73.66" y1="10.16" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
 <label x="71.12" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-187.96" y1="2.54" x2="-177.8" y2="2.54" width="0.1524" layer="91"/>
+<label x="-177.8" y="2.54" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -14513,6 +14518,11 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-139.7" y1="-55.88" x2="-134.62" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-134.62" y="-55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="EMGOUT" gate="P" pin="P"/>
+<wire x1="-154.94" y1="-96.52" x2="-154.94" y2="-104.14" width="0.1524" layer="91"/>
+<label x="-154.94" y="-96.52" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="N$26" class="0">
 <segment>
@@ -14582,18 +14592,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="33.02" y1="-93.98" x2="33.02" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3IN-"/>
 <wire x1="33.02" y1="-60.96" x2="20.32" y2="-60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="EMGOUT" gate="P" pin="P"/>
-<wire x1="-154.94" y1="-96.52" x2="-154.94" y2="-104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-187.96" y1="2.54" x2="-177.8" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -14057,13 +14057,10 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="1IN-"/>
-<wire x1="-20.32" y1="-50.8" x2="-12.7" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="-50.8" x2="-12.7" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="-43.18" x2="-45.72" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-12.7" y="-50.8"/>
+<wire x1="-17.78" y1="-43.18" x2="-45.72" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-17.78" y="-50.8"/>
+<wire x1="-17.78" y1="-43.18" x2="-17.78" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -14251,6 +14248,13 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-193.04" y1="-60.96" x2="-193.04" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="-193.04" y1="-63.5" x2="-210.82" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="-193.04" y="-60.96"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="1IN-"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-20.32" y1="-50.8" x2="-12.7" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
